@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Kangpatsa Translator</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="/index.css">
+
+</head>
+
+<body>
+    <h2>
+        Latin to Kangpatsa
+    </h2>
+    <p>
+        <textarea id="latin-to-kangpatsa-input" rows="8" cols="80"
+        onkeydown="$('#latin-to-kangpatsa-output').text(kangpatsa($('#latin-to-kangpatsa-input').val()));"></textarea>
+    </p>
+    <p id="latin-to-kangpatsa-output"></p>
+    <hr>
+    <div class="credit">
+        Built by Lemuria for Zhenkang
+    </div>
+    <script src="/kangpatsa.js" async defer>
+
+    </script>
+
+</body>
+
+</html>

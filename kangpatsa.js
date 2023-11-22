@@ -5,7 +5,7 @@ const translation = {
     'ch': 'ᥡ', 's': 'ᥞ', 'sh': 'ဆ', 'j': 'စ', 'y': 'ᥕ', 'a': 'ᥣ',
     'ai': 'ᥭ', 'ao': 'ᥝ', 'i': 'ᥤ', 'ü': 'ᥪ', 'ie': 'ᥬ', 'io': 'ᥬᥩ',
     'eo': 'ᥬᥩ', 'iu': 'ᥤᥝ', 'e': 'ᥫ', 'ei': 'ᥥ', 'ae': 'ᥦ', 'ou': 'ᥩ',
-    'o': 'ᥨ', 'oi': 'ᥨᥭ', 'u': 'ᥧ', 'ui': 'ᥧᥤ', 'uai': 'ᥧᥭ',
+    'o': 'ᥨ', 'oi': 'ᥨᥭ', 'u': 'ᥧ', 'ui': 'ᥧᥤ', 'uai': 'ᥧᥭ', '\n': '\n'
 }
 
 function one_kangpatsa_char(i) {
@@ -15,7 +15,6 @@ function one_kangpatsa_char(i) {
     else {
         returned = i;
     }
-    console.log(i, translation[i], returned);
     return returned;
 }
 
